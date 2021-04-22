@@ -1,0 +1,79 @@
+<html><head></head>
+<body>
+  <form action="submission.html" method="POST">
+    <h1>bhiyaa dabeli dena jara!</h1>
+    <section class="dabeli">
+      <label for="naam">kya naam se order</label>
+      <input type="text" name="naam" id="naam">
+    </section>
+    <hr>
+    
+    <section class="pilate">
+      <label for="batao">kitni pilate lagau</label>
+      <input type="number" name="batao" id="batao">
+    </section>
+    <hr>
+    
+    <section class="cooked">
+      <label for="doneness">teekhi ya chatpati</label>
+      <br>
+      <span>Chatpati</span>
+      <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+      <span>Teekhi</span>
+    </section>
+    <hr>
+    
+    <section class="kya">
+      <span>aur kya daalu</span>
+      <br>
+      <input type="checkbox" name="kya" id="sev" value="sev">
+      <label for="sev">Sev</label>
+      <input type="checkbox" name="kya" id="kaanda" value="kaanda">
+      <label for="kaanda">Kaanda</label>
+      <input type="checkbox" name="kya" id="chutney" value="chutney">
+      <label for="chutney">Chutney</label>
+    </section>
+    <hr>
+    
+    <section class="kidhar">
+      <span>Yahi khaaoge ya ghar?</span>
+      <br>
+      <input type="radio" name="kidhar" id="yes" value="yes">
+      <label for="yes">Yahi</label>
+      <input type="radio" name="kidhar" id="no" value="yes">
+      <label for="no">Ghar pe</label>
+    </section>
+    <hr>
+   
+    <section class="konsi-sev">
+      <label for="konsi">Sev konsi rakhni hai?</label>
+      <select name="konsi" id="konsi">
+        <option value="patli">Patli</option>
+        <option value="moti">Moti</option>
+        <option value="michchar">Michchar</option>
+      </select>
+    </section>
+    <hr>
+    
+    <section class="chutney-konsi">
+      <label for="sauce">chutney konsi rakhni hai ?</label>
+      <input list="sauces" id="sauce" name="sauce">
+      <datalist id="sauces">
+        <option value="hari"></option>
+        <option value="laal"></option>
+        <option value="dono"></option>
+      </datalist>
+    </section>
+    <hr>
+    <section class="haal chaal">
+      <label for="extra">aur bhiya sab maje</label>
+      <br>
+      <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+    </section>
+    <hr>
+
+    <section class="submission">
+      <input type="submit" value="Raaam">
+    </section>
+  </form>
+</body></html>
